@@ -1,0 +1,15 @@
+{
+  "bitcoin_rpc": {
+    "host": "localhost",
+    "port": 18332,
+    "user": "someuser",
+    "password": "someREALLYLONGpassword"
+  },
+  "web3": {
+    "path": "http://localhost:8545",
+    "address": "0x3ddebee355b6ccd6ea7a6d60aa326057d2c45602"
+  },
+  "bitcoin_api": {
+    "url": "https://api.blockcypher.com/v1/btc/test3/addrs/"
+  }
+}

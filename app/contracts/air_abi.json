@@ -1,0 +1,164 @@
+[
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "adr",
+        "type": "address"
+      }
+    ],
+    "name": "chkAddr",
+    "outputs": [
+      {
+        "name": "aa",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "airdrop_adrs",
+    "outputs": [
+      {
+        "name": "typenet",
+        "type": "string"
+      },
+      {
+        "name": "wayaddress",
+        "type": "address"
+      },
+      {
+        "name": "newnetaddress",
+        "type": "address"
+      },
+      {
+        "name": "balance",
+        "type": "uint256"
+      },
+      {
+        "name": "way_balance",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "ii",
+        "type": "uint256"
+      }
+    ],
+    "name": "getDrop",
+    "outputs": [
+      {
+        "name": "nnet",
+        "type": "string"
+      },
+      {
+        "name": "adr_w",
+        "type": "address"
+      },
+      {
+        "name": "adr_n",
+        "type": "address"
+      },
+      {
+        "name": "ball",
+        "type": "uint256"
+      },
+      {
+        "name": "w_ball",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "nNet",
+        "type": "string"
+      },
+      {
+        "name": "wayaddr",
+        "type": "address"
+      },
+      {
+        "name": "newaddr",
+        "type": "address"
+      },
+      {
+        "name": "way_bal",
+        "type": "uint256"
+      }
+    ],
+    "name": "setDrop",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "countAddr",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "taddress",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "typenet",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "name": "nwaddr",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "balance",
+        "type": "uint256"
+      }
+    ],
+    "name": "NewAddr",
+    "type": "event"
+  }
+]
